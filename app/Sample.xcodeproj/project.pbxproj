@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4D58A0A7260A83BD242D4857 /* BazelDependencies */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3A7A05E2AC76F223F8191115 /* Build configuration list for PBXAggregateTarget "BazelDependencies" */;
+			buildPhases = (
+				A2FFF6B1A0328DE7B1F89775 /* Generate Files */,
+				1E8F295A371F30F8EA4735D4 /* Create swift_debug_settings.py */,
+			);
+			dependencies = (
+			);
+			name = BazelDependencies;
+			productName = BazelDependencies;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		15C17B30F31E051043A3EB76 /* FBSDKCoreKit_Basics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5431745ACA810C85864E3C80 /* FBSDKCoreKit_Basics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		250BE27E601C4193E2BDE4A5 /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F045B83F7F45A92E879AE738 /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3079899A9605FCCCF1CA101A /* FBAEMKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C713D4E49FD857A88882E47F /* FBAEMKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		45E56625EA3B201F02BE132C /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869A61A8A0E2AFFA283467FB /* AppIcon.xcassets */; };
+		8DC36A1DFED303CB02454EA1 /* FBSDKShareKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2EF718CC6EBF430AA649E83 /* FBSDKShareKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		95F63D0716E1FFBE10E810FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B82B0EA6462808EC3FD4D /* AppDelegate.swift */; };
+		B3960308D81B8B024561784C /* Something.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07BC9EE9DD8AAAAF9C164A7 /* Something.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		147C4D1DD83D65AC656C53E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E94E80BAB65A37AC5EF2448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D58A0A7260A83BD242D4857;
+			remoteInfo = BazelDependencies;
+		};
+		253D1029F2C656F89F1530BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E94E80BAB65A37AC5EF2448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D58A0A7260A83BD242D4857;
+			remoteInfo = BazelDependencies;
+		};
+		91AE40ACFDE4DD33E7FFD163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E94E80BAB65A37AC5EF2448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71464702CCAB0A17FCCE7E20;
+			remoteInfo = Social;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		13C1C99D5F2D98A89172A5BC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				15C17B30F31E051043A3EB76 /* FBSDKCoreKit_Basics.framework in Embed Frameworks */,
+				3079899A9605FCCCF1CA101A /* FBAEMKit.framework in Embed Frameworks */,
+				250BE27E601C4193E2BDE4A5 /* FBSDKCoreKit.framework in Embed Frameworks */,
+				8DC36A1DFED303CB02454EA1 /* FBSDKShareKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		141C02E5399F57F651171963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1753F8F18E708F766CCE7BCD /* BUILD */ = {isa = PBXFileReference; explicitFileType = text.script.python; path = BUILD; sourceTree = "<group>"; };
+		29FB0B8E9C25BCB185595CCD /* BUILD */ = {isa = PBXFileReference; explicitFileType = text.script.python; path = BUILD; sourceTree = "<group>"; };
+		5431745ACA810C85864E3C80 /* FBSDKCoreKit_Basics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit_Basics.framework; sourceTree = "<group>"; };
+		668B82B0EA6462808EC3FD4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		869A61A8A0E2AFFA283467FB /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
+		A07BC9EE9DD8AAAAF9C164A7 /* Something.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Something.swift; sourceTree = "<group>"; };
+		BADC0989F02CF10F87B9BA4E /* libSocial.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = libSocial.a; path = "bazel-out/ios-sim_arm64-min14.0-applebin_ios-ios_sim_arm64-dbg-ST-983f5c65c923/bin/modules/Social/libSocial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB964D8326C3F24B19902169 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C713D4E49FD857A88882E47F /* FBAEMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAEMKit.framework; sourceTree = "<group>"; };
+		E4FEDC67D4C8747BC244B5B9 /* SampleApp.1.link.params */ = {isa = PBXFileReference; path = SampleApp.1.link.params; sourceTree = "<group>"; };
+		F045B83F7F45A92E879AE738 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F2EF718CC6EBF430AA649E83 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		F8834BBC31306440C86A528A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FD4715E64518019204FB08AA /* BUILD */ = {isa = PBXFileReference; explicitFileType = text.script.python; path = BUILD; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0C4A2DFF360458B322EF77E4 /* ios-arm64_x86_64-simulator */ = {
+			isa = PBXGroup;
+			children = (
+				F2EF718CC6EBF430AA649E83 /* FBSDKShareKit.framework */,
+			);
+			path = "ios-arm64_x86_64-simulator";
+			sourceTree = "<group>";
+		};
+		0FEFF1CB3D68B491CB6872BF /* FBSDKShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				B452C41BF69F2ABAAFAB1E79 /* XCFrameworks */,
+			);
+			path = FBSDKShareKit;
+			sourceTree = "<group>";
+		};
+		0FF0974494CDDACA27D5EFCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BADC0989F02CF10F87B9BA4E /* libSocial.a */,
+				BB964D8326C3F24B19902169 /* SampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		109A1DB2D51A67C476C8269D /* FBSDKCoreKit_Basics */ = {
+			isa = PBXGroup;
+			children = (
+				267A5D9740E715E30E670C29 /* XCFrameworks */,
+			);
+			path = FBSDKCoreKit_Basics;
+			sourceTree = "<group>";
+		};
+		19E19C117F0CF29C7A8984CF /* FBAEMKit */ = {
+			isa = PBXGroup;
+			children = (
+				B5686EA5A324A997AD9E43C6 /* XCFrameworks */,
+			);
+			path = FBAEMKit;
+			sourceTree = "<group>";
+		};
+		1B76E940B84DA0CD92FA344C /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				C252507C348C9236491D84C7 /* Sources */,
+				1753F8F18E708F766CCE7BCD /* BUILD */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		1B8BC18CED297EFC6B78F8E6 /* SampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				141C02E5399F57F651171963 /* Info.plist */,
+			);
+			path = SampleApp;
+			sourceTree = "<group>";
+		};
+		1C84B9B99B301D3AE9C074D8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				668B82B0EA6462808EC3FD4D /* AppDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1D2CE319755254B912F27A46 /* FBSDKShareKit.xcframework */ = {
+			isa = PBXGroup;
+			children = (
+				0C4A2DFF360458B322EF77E4 /* ios-arm64_x86_64-simulator */,
+			);
+			path = FBSDKShareKit.xcframework;
+			sourceTree = "<group>";
+		};
+		1ECC461A9ACD11CD4A39021A /* darwin_arm64-dbg */ = {
+			isa = PBXGroup;
+			children = (
+				3C84DCBE5CFF30B05703DA2B /* bin */,
+			);
+			path = "darwin_arm64-dbg";
+			sourceTree = "<group>";
+		};
+		267A5D9740E715E30E670C29 /* XCFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9ADC86A0F5A5EC049E315239 /* FBSDKCoreKit_Basics.xcframework */,
+			);
+			path = XCFrameworks;
+			sourceTree = "<group>";
+		};
+		2FE4932E76E66D91EEF0CB7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D51FD5A7A7ECE394C20AD810 /* Assets */,
+				F8834BBC31306440C86A528A /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3856CF5B53FC9BDE74538D9F /* FBSDKCoreKit.xcframework */ = {
+			isa = PBXGroup;
+			children = (
+				8C465B4BFAB7C748BB936597 /* ios-arm64_x86_64-simulator */,
+			);
+			path = FBSDKCoreKit.xcframework;
+			sourceTree = "<group>";
+		};
+		3985C0EBF46D3BC6F7F6A80B /* XCFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3856CF5B53FC9BDE74538D9F /* FBSDKCoreKit.xcframework */,
+			);
+			path = XCFrameworks;
+			sourceTree = "<group>";
+		};
+		3C84DCBE5CFF30B05703DA2B /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				7551B4C579E3AFD7618B048A /* external */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		4A27A618A7F022BF7069C196 /* applebin_ios-ios_sim_arm64-dbg-ST-983f5c65c923 */ = {
+			isa = PBXGroup;
+			children = (
+				AB7500BB9C965DAA540EEC08 /* bin */,
+			);
+			path = "applebin_ios-ios_sim_arm64-dbg-ST-983f5c65c923";
+			sourceTree = "<group>";
+		};
+		5AAD14C346E40A1D21D8E7E2 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				1B76E940B84DA0CD92FA344C /* Social */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		5DD97477BFEBDE82D07AAF88 /* Bazel Generated Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A27A618A7F022BF7069C196 /* applebin_ios-ios_sim_arm64-dbg-ST-983f5c65c923 */,
+				1ECC461A9ACD11CD4A39021A /* darwin_arm64-dbg */,
+			);
+			name = "Bazel Generated Files";
+			path = "bazel-out";
+			sourceTree = SOURCE_ROOT;
+		};
+		5F42F3279AE7C2A9202EA523 /* FBAEMKit.xcframework */ = {
+			isa = PBXGroup;
+			children = (
+				8210FDEC3DFE5D5A4132A266 /* ios-arm64_x86_64-simulator */,
+			);
+			path = FBAEMKit.xcframework;
+			sourceTree = "<group>";
+		};
+		5FEEA8E12554D914F746100C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6746FD4CC6DF0409C9357707 /* /Users/andre.alves/Documents/Works/xcodeproj_min_version_error */ = {
+			isa = PBXGroup;
+			children = (
+				8D4918490B77FD892DC59269 /* app */,
+				7A08807D8637BD9E7BA1CB7D /* frameworks */,
+				5AAD14C346E40A1D21D8E7E2 /* modules */,
+				5DD97477BFEBDE82D07AAF88 /* Bazel Generated Files */,
+				0FF0974494CDDACA27D5EFCC /* Products */,
+				5FEEA8E12554D914F746100C /* Frameworks */,
+			);
+			path = /Users/andre.alves/Documents/Works/xcodeproj_min_version_error;
+			sourceTree = "<absolute>";
+		};
+		6BBDDDC152AAF0CB62912FD1 /* ios-arm64_x86_64-simulator */ = {
+			isa = PBXGroup;
+			children = (
+				5431745ACA810C85864E3C80 /* FBSDKCoreKit_Basics.framework */,
+			);
+			path = "ios-arm64_x86_64-simulator";
+			sourceTree = "<group>";
+		};
+		710EDAA2344F8AB17635DA12 /* generator-params */ = {
+			isa = PBXGroup;
+			children = (
+				E4FEDC67D4C8747BC244B5B9 /* SampleApp.1.link.params */,
+			);
+			path = "generator-params";
+			sourceTree = "<group>";
+		};
+		7551B4C579E3AFD7618B048A /* external */ = {
+			isa = PBXGroup;
+			children = (
+				D3AAE40D6B05E34356959C46 /* rules_xcodeproj_generated */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		7A08807D8637BD9E7BA1CB7D /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19E19C117F0CF29C7A8984CF /* FBAEMKit */,
+				952B1CAA6D5F2C0AFA65136F /* FBSDKCoreKit */,
+				109A1DB2D51A67C476C8269D /* FBSDKCoreKit_Basics */,
+				0FEFF1CB3D68B491CB6872BF /* FBSDKShareKit */,
+				29FB0B8E9C25BCB185595CCD /* BUILD */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		8210FDEC3DFE5D5A4132A266 /* ios-arm64_x86_64-simulator */ = {
+			isa = PBXGroup;
+			children = (
+				C713D4E49FD857A88882E47F /* FBAEMKit.framework */,
+			);
+			path = "ios-arm64_x86_64-simulator";
+			sourceTree = "<group>";
+		};
+		83BB003FF5CE3E2938698752 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				853762C94B457D58ED8E94D2 /* rules_xcodeproj */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		853762C94B457D58ED8E94D2 /* rules_xcodeproj */ = {
+			isa = PBXGroup;
+			children = (
+				1B8BC18CED297EFC6B78F8E6 /* SampleApp */,
+			);
+			path = rules_xcodeproj;
+			sourceTree = "<group>";
+		};
+		8C465B4BFAB7C748BB936597 /* ios-arm64_x86_64-simulator */ = {
+			isa = PBXGroup;
+			children = (
+				F045B83F7F45A92E879AE738 /* FBSDKCoreKit.framework */,
+			);
+			path = "ios-arm64_x86_64-simulator";
+			sourceTree = "<group>";
+		};
+		8D4918490B77FD892DC59269 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				2FE4932E76E66D91EEF0CB7B /* Resources */,
+				1C84B9B99B301D3AE9C074D8 /* Sources */,
+				FD4715E64518019204FB08AA /* BUILD */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		952B1CAA6D5F2C0AFA65136F /* FBSDKCoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				3985C0EBF46D3BC6F7F6A80B /* XCFrameworks */,
+			);
+			path = FBSDKCoreKit;
+			sourceTree = "<group>";
+		};
+		9ADC86A0F5A5EC049E315239 /* FBSDKCoreKit_Basics.xcframework */ = {
+			isa = PBXGroup;
+			children = (
+				6BBDDDC152AAF0CB62912FD1 /* ios-arm64_x86_64-simulator */,
+			);
+			path = FBSDKCoreKit_Basics.xcframework;
+			sourceTree = "<group>";
+		};
+		AB7500BB9C965DAA540EEC08 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				83BB003FF5CE3E2938698752 /* app */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		B452C41BF69F2ABAAFAB1E79 /* XCFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D2CE319755254B912F27A46 /* FBSDKShareKit.xcframework */,
+			);
+			path = XCFrameworks;
+			sourceTree = "<group>";
+		};
+		B5686EA5A324A997AD9E43C6 /* XCFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F42F3279AE7C2A9202EA523 /* FBAEMKit.xcframework */,
+			);
+			path = XCFrameworks;
+			sourceTree = "<group>";
+		};
+		C252507C348C9236491D84C7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A07BC9EE9DD8AAAAF9C164A7 /* Something.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D3AAE40D6B05E34356959C46 /* rules_xcodeproj_generated */ = {
+			isa = PBXGroup;
+			children = (
+				E4D67F8D540D7F9FD9CB646A /* generator */,
+			);
+			path = rules_xcodeproj_generated;
+			sourceTree = "<group>";
+		};
+		D51FD5A7A7ECE394C20AD810 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				869A61A8A0E2AFFA283467FB /* AppIcon.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E4D67F8D540D7F9FD9CB646A /* generator */ = {
+			isa = PBXGroup;
+			children = (
+				710EDAA2344F8AB17635DA12 /* generator-params */,
+			);
+			path = generator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BB5F97D70254889BBF36D45 /* SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 976243118B17A1C196C46370 /* Build configuration list for PBXNativeTarget "SampleApp" */;
+			buildPhases = (
+				8F35060419286620986A9A46 /* Create compiling dependencies */,
+				490C38E2E25AE3EAEC00C11C /* Create linking dependencies */,
+				FC9BB9D25BE1099053BE19DE /* Sources */,
+				D0A9A6E46DFEAB4E7255A508 /* Resources */,
+				13C1C99D5F2D98A89172A5BC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4953632EBA245827749E83E /* PBXTargetDependency */,
+				772C58B6E2AC9879678ABA09 /* PBXTargetDependency */,
+			);
+			name = SampleApp;
+			productName = SampleApp;
+			productReference = BB964D8326C3F24B19902169 /* SampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71464702CCAB0A17FCCE7E20 /* Social */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFA818FA332BD342FB96F03 /* Build configuration list for PBXNativeTarget "Social" */;
+			buildPhases = (
+				DA9A95DCAA4E21B7E2BAA50E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D87EBADF86D3FF54FAC2EFDE /* PBXTargetDependency */,
+			);
+			name = Social;
+			productName = Social;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E94E80BAB65A37AC5EF2448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 9999;
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					4D58A0A7260A83BD242D4857 = {
+						CreatedOnToolsVersion = 14.1.0;
+					};
+					5BB5F97D70254889BBF36D45 = {
+						CreatedOnToolsVersion = 14.1.0;
+						LastSwiftMigration = 9999;
+					};
+					71464702CCAB0A17FCCE7E20 = {
+						CreatedOnToolsVersion = 14.1.0;
+						LastSwiftMigration = 9999;
+					};
+				};
+			};
+			buildConfigurationList = BD36F0AAEB93F6E9B7E99BCF /* Build configuration list for PBXProject "Sample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6746FD4CC6DF0409C9357707 /* /Users/andre.alves/Documents/Works/xcodeproj_min_version_error */;
+			productRefGroup = 0FF0974494CDDACA27D5EFCC /* Products */;
+			projectDirPath = /var/tmp/_bazel_andre.alves/dad99f5660970d98e0398251bc2eeec1/rules_xcodeproj/build_output_base/execroot/__main__;
+			projectRoot = "";
+			targets = (
+				4D58A0A7260A83BD242D4857 /* BazelDependencies */,
+				5BB5F97D70254889BBF36D45 /* SampleApp */,
+				71464702CCAB0A17FCCE7E20 /* Social */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0A9A6E46DFEAB4E7255A508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E56625EA3B201F02BE132C /* AppIcon.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E8F295A371F30F8EA4735D4 /* Create swift_debug_settings.py */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BAZEL_INTEGRATION_DIR)/$(CONFIGURATION)-swift_debug_settings.py",
+			);
+			name = "Create swift_debug_settings.py";
+			outputPaths = (
+				"$(OBJROOT)/$(CONFIGURATION)/swift_debug_settings.py",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "perl -pe '\n  # Replace \"__BAZEL_XCODE_DEVELOPER_DIR__\" with \"$(DEVELOPER_DIR)\"\n  s/__BAZEL_XCODE_DEVELOPER_DIR__/\\$(DEVELOPER_DIR)/g;\n\n  # Replace \"__BAZEL_XCODE_SDKROOT__\" with \"$(SDKROOT)\"\n  s/__BAZEL_XCODE_SDKROOT__/\\$(SDKROOT)/g;\n\n  # Replace build settings with their values\n  s/\n    \\$             # Match a dollar sign\n    (\\()?          # Optionally match an opening parenthesis and capture it\n    ([a-zA-Z_]\\w*) # Match a variable name and capture it\n    (?(1)\\))       # If an opening parenthesis was captured, match a closing parenthesis\n  /$ENV{$2}/gx;    # Replace the entire matched string with the value of the corresponding environment variable\n\n' \"$SCRIPT_INPUT_FILE_0\" > \"$SCRIPT_OUTPUT_FILE_0\"\n";
+			showEnvVarsInLog = 0;
+		};
+		490C38E2E25AE3EAEC00C11C /* Create linking dependencies */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(LINK_PARAMS_FILE)",
+			);
+			name = "Create linking dependencies";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/link.params",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -euo pipefail\n\nperl -pe 's/^(\"?)(.*\\$\\(.*\\).*?)(\"?)$/\"$2\"/ ; s/\\$(\\()?([a-zA-Z_]\\w*)(?(1)\\))/$ENV{$2}/g' \\\n  \"$SCRIPT_INPUT_FILE_0\" > \"$SCRIPT_OUTPUT_FILE_0\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F35060419286620986A9A46 /* Create compiling dependencies */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BAZEL_INTEGRATION_DIR)/create_xcode_overlay.sh",
+			);
+			name = "Create compiling dependencies";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/xcode-overlay.yaml",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SCRIPT_INPUT_FILE_0\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2FFF6B1A0328DE7B1F89775 /* Generate Files */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Files";
+			outputFileListPaths = (
+				"$(INTERNAL_DIR)/generated.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$BAZEL_INTEGRATION_DIR/generate_bazel_dependencies.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA9A95DCAA4E21B7E2BAA50E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3960308D81B8B024561784C /* Something.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9BB9D25BE1099053BE19DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F63D0716E1FFBE10E810FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		772C58B6E2AC9879678ABA09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Social;
+			target = 71464702CCAB0A17FCCE7E20 /* Social */;
+			targetProxy = 91AE40ACFDE4DD33E7FFD163 /* PBXContainerItemProxy */;
+		};
+		B4953632EBA245827749E83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BazelDependencies;
+			target = 4D58A0A7260A83BD242D4857 /* BazelDependencies */;
+			targetProxy = 147C4D1DD83D65AC656C53E8 /* PBXContainerItemProxy */;
+		};
+		D87EBADF86D3FF54FAC2EFDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BazelDependencies;
+			target = 4D58A0A7260A83BD242D4857 /* BazelDependencies */;
+			targetProxy = 253D1029F2C656F89F1530BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F04F3E130AF94306900781B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BAZEL_CONFIG = rules_xcodeproj;
+				BAZEL_EXTERNAL = "$(BAZEL_OUTPUT_BASE)/external";
+				BAZEL_INTEGRATION_DIR = "$(INTERNAL_DIR)/bazel";
+				BAZEL_LLDB_INIT = "$(HOME)/.lldbinit-rules_xcodeproj";
+				BAZEL_OUT = "$(PROJECT_DIR)/bazel-out";
+				BAZEL_OUTPUT_BASE = "$(_BAZEL_OUTPUT_BASE:standardizepath)";
+				BAZEL_PATH = bazel;
+				BAZEL_WORKSPACE_ROOT = "$(SRCROOT)";
+				BUILD_DIR = "$(SYMROOT)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				BUILD_WORKSPACE_DIRECTORY = "$(SRCROOT)";
+				BUILT_PRODUCTS_DIR = "$(INDEXING_BUILT_PRODUCTS_DIR__$(INDEX_ENABLE_BUILD_ARENA))";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_MODULES_AUTOLINK = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(BAZEL_PACKAGE_BIN_DIR)";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_EXECUTION_ROOT = "$(INDEXING_PROJECT_DIR__$(INDEX_ENABLE_BUILD_ARENA))";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_LOCATION = "$(INDEXING_DEPLOYMENT_LOCATION__$(INDEX_ENABLE_BUILD_ARENA)),";
+				DSTROOT = "$(PROJECT_TEMP_DIR)";
+				ENABLE_DEFAULT_SEARCH_PATHS = NO;
+				GENERATOR_LABEL = "@rules_xcodeproj_generated//generator:generator";
+				INDEXING_BUILT_PRODUCTS_DIR__ = "$(INDEXING_BUILT_PRODUCTS_DIR__NO)";
+				INDEXING_BUILT_PRODUCTS_DIR__NO = "$(BUILD_DIR)";
+				INDEXING_BUILT_PRODUCTS_DIR__YES = "$(CONFIGURATION_BUILD_DIR)";
+				INDEXING_DEPLOYMENT_LOCATION__ = "$(INDEXING_DEPLOYMENT_LOCATION__NO)";
+				INDEXING_DEPLOYMENT_LOCATION__NO = YES;
+				INDEXING_DEPLOYMENT_LOCATION__YES = NO;
+				INDEXING_PROJECT_DIR__ = "$(INDEXING_PROJECT_DIR__NO)";
+				INDEXING_PROJECT_DIR__NO = "$(PROJECT_DIR)";
+				INDEXING_PROJECT_DIR__YES = /var/tmp/_bazel_andre.alves/dad99f5660970d98e0398251bc2eeec1/rules_xcodeproj/indexbuild_output_base/execroot/__main__;
+				INDEX_FORCE_SCRIPT_EXECUTION = YES;
+				INSTALL_PATH = "$(BAZEL_PACKAGE_BIN_DIR)/$(TARGET_NAME)/bin";
+				INTERNAL_DIR = "$(PROJECT_FILE_PATH)/rules_xcodeproj";
+				LD_DYLIB_INSTALL_NAME = "";
+				LD_OBJC_ABI_VERSION = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				RESOLVED_REPOSITORIES = "\"\" \"/Users/andre.alves/Documents/Works/xcodeproj_min_version_error\"";
+				RULES_XCODEPROJ_BUILD_MODE = xcode;
+				SCHEME_TARGET_IDS_FILE = "$(OBJROOT)/scheme_target_ids";
+				SRCROOT = /Users/andre.alves/Documents/Works/xcodeproj_min_version_error;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGET_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(BAZEL_PACKAGE_BIN_DIR)/$(COMPILE_TARGET_NAME)";
+				USE_HEADERMAP = NO;
+				VALIDATE_WORKSPACE = NO;
+				_BAZEL_OUTPUT_BASE = "$(PROJECT_DIR)/../..";
+			};
+			name = Debug;
+		};
+		7A8983FB5FD3F2C1B3DEED86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BAZEL_PACKAGE_BIN_DIR = rules_xcodeproj;
+				CALCULATE_OUTPUT_GROUPS_SCRIPT = "$(BAZEL_INTEGRATION_DIR)/calculate_output_groups.py";
+				INDEXING_SUPPORTED_PLATFORMS__ = "$(INDEXING_SUPPORTED_PLATFORMS__NO)";
+				INDEXING_SUPPORTED_PLATFORMS__NO = iphonesimulator;
+				INDEXING_SUPPORTED_PLATFORMS__YES = iphonesimulator;
+				INDEX_DATA_STORE_DIR = "$(INDEX_DATA_STORE_DIR)";
+				INDEX_IMPORT = "$(BAZEL_OUT)/darwin_arm64-opt-exec-2B5CBBC6/bin/external/rules_xcodeproj_index_import/index-import";
+				SUPPORTED_PLATFORMS = "$(INDEXING_SUPPORTED_PLATFORMS__$(INDEX_ENABLE_BUILD_ARENA))";
+				SUPPORTS_MACCATALYST = YES;
+				TARGET_NAME = BazelDependencies;
+			};
+			name = Debug;
+		};
+		D4EF3D11CB7FADADD0BB5EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				BAZEL_LABEL = "@//modules/Social:Social";
+				BAZEL_PACKAGE_BIN_DIR = "bazel-out/ios-sim_arm64-min14.0-applebin_ios-ios_sim_arm64-dbg-ST-983f5c65c923/bin/modules/Social";
+				BAZEL_TARGET_ID = "@//modules/Social:Social ios-sim_arm64-min14.0-applebin_ios-ios_sim_arm64-dbg-ST-983f5c65c923";
+				"BAZEL_TARGET_ID[sdk=iphonesimulator*]" = "$(BAZEL_TARGET_ID)";
+				COMPILE_TARGET_NAME = Social;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				OTHER_SWIFT_FLAGS = "-vfsoverlay $(OBJROOT)/bazel-out-overlay.yaml -DDEBUG -Xcc -iquote$(PROJECT_DIR) -Xcc -iquote$(PROJECT_DIR)/bazel-out/ios-sim_arm64-min14.0-applebin_ios-ios_sim_arm64-dbg-ST-983f5c65c923/bin -static -Xcc -O0 -Xcc -DDEBUG=1 -Xcc -fstack-protector -Xcc -fstack-protector-all";
+				PRODUCT_MODULE_NAME = Social;
+				PRODUCT_NAME = Social;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphonesimulator;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Social;
+			};
+			name = Debug;
+		};
+		EC2443621D19FF6FFA62F5B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BAZEL_COMPILE_TARGET_ID = "@//app:SampleLibrary ios-sim_arm64-min14.0-applebin_ios-ios_sim_arm64-dbg-ST-983f5c65c923";
+				"BAZEL_COMPILE_TARGET_ID[sdk=iphonesimulator*]" = "$(BAZEL_COMPILE_TARGET_ID)";
+				BAZEL_LABEL = "@//app:SampleApp";
+				BAZEL_PACKAGE_BIN_DIR = "bazel-out/applebin_ios-ios_sim_arm64-dbg-ST-983f5c65c923/bin/app";
+				BAZEL_TARGET_ID = "@//app:SampleApp applebin_ios-ios_sim_arm64-dbg-ST-983f5c65c923";
+				"BAZEL_TARGET_ID[sdk=iphonesimulator*]" = "$(BAZEL_TARGET_ID)";
+				BUILT_PRODUCTS_DIR = "$(CONFIGURATION_BUILD_DIR)";
+				CODE_SIGN_STYLE = Manual;
+				COMPILE_TARGET_NAME = SampleLibrary;
+				DEPLOYMENT_LOCATION = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "$(BAZEL_OUT)/applebin_ios-ios_sim_arm64-dbg-ST-983f5c65c923/bin/app/rules_xcodeproj/SampleApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LINK_PARAMS_FILE = "$(BAZEL_OUT)/darwin_arm64-dbg/bin/external/rules_xcodeproj_generated/generator/generator-params/SampleApp.1.link.params";
+				OTHER_LDFLAGS = "@$(DERIVED_FILE_DIR)/link.params";
+				OTHER_SWIFT_FLAGS = "-Xcc -ivfsoverlay -Xcc $(DERIVED_FILE_DIR)/xcode-overlay.yaml -Xcc -ivfsoverlay -Xcc $(OBJROOT)/bazel-out-overlay.yaml -vfsoverlay $(OBJROOT)/bazel-out-overlay.yaml -DDEBUG -I$(PROJECT_DIR)/bazel-out/ios-sim_arm64-min14.0-applebin_ios-ios_sim_arm64-dbg-ST-983f5c65c923/bin/modules/Social -Fframeworks/FBSDKShareKit/XCFrameworks/FBSDKShareKit.xcframework/ios-arm64_x86_64-simulator -Fframeworks/FBSDKCoreKit/XCFrameworks/FBSDKCoreKit.xcframework/ios-arm64_x86_64-simulator -Fframeworks/FBAEMKit/XCFrameworks/FBAEMKit.xcframework/ios-arm64_x86_64-simulator -Fframeworks/FBSDKCoreKit_Basics/XCFrameworks/FBSDKCoreKit_Basics.xcframework/ios-arm64_x86_64-simulator -Xcc -Fframeworks/FBSDKShareKit/XCFrameworks/FBSDKShareKit.xcframework/ios-arm64_x86_64-simulator -Xcc -Fframeworks/FBSDKCoreKit/XCFrameworks/FBSDKCoreKit.xcframework/ios-arm64_x86_64-simulator -Xcc -Fframeworks/FBAEMKit/XCFrameworks/FBAEMKit.xcframework/ios-arm64_x86_64-simulator -Xcc -Fframeworks/FBSDKCoreKit_Basics/XCFrameworks/FBSDKCoreKit_Basics.xcframework/ios-arm64_x86_64-simulator -Xcc -iquote$(PROJECT_DIR) -Xcc -iquote$(PROJECT_DIR)/bazel-out/ios-sim_arm64-min14.0-applebin_ios-ios_sim_arm64-dbg-ST-983f5c65c923/bin -Xcc -fmodule-map-file=$(PROJECT_DIR)/frameworks/FBSDKCoreKit_Basics/XCFrameworks/FBSDKCoreKit_Basics.xcframework/ios-arm64_x86_64-simulator/FBSDKCoreKit_Basics.framework/Modules/module.modulemap -Xcc -fmodule-map-file=$(PROJECT_DIR)/frameworks/FBAEMKit/XCFrameworks/FBAEMKit.xcframework/ios-arm64_x86_64-simulator/FBAEMKit.framework/Modules/module.modulemap -Xcc -fmodule-map-file=$(PROJECT_DIR)/frameworks/FBSDKCoreKit/XCFrameworks/FBSDKCoreKit.xcframework/ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/module.modulemap -Xcc -fmodule-map-file=$(PROJECT_DIR)/frameworks/FBSDKShareKit/XCFrameworks/FBSDKShareKit.xcframework/ios-arm64_x86_64-simulator/FBSDKShareKit.framework/Modules/module.modulemap -Xfrontend -disable-autolink-framework -Xfrontend FBSDKCoreKit_Basics -Xfrontend -disable-autolink-framework -Xfrontend FBAEMKit -Xfrontend -disable-autolink-framework -Xfrontend FBSDKCoreKit -Xfrontend -disable-autolink-framework -Xfrontend FBSDKShareKit -static -Xcc -O0 -Xcc -DDEBUG=1 -Xcc -fstack-protector -Xcc -fstack-protector-all";
+				PREVIEWS_SWIFT_INCLUDE_PATH__ = "";
+				PREVIEWS_SWIFT_INCLUDE_PATH__NO = "";
+				PREVIEWS_SWIFT_INCLUDE_PATH__YES = "$(BUILD_DIR)/bazel-out/applebin_ios-ios_sim_arm64-dbg-ST-983f5c65c923/bin/app";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.andre.sampleapp;
+				PRODUCT_MODULE_NAME = SampleLibrary;
+				PRODUCT_NAME = SampleApp;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphonesimulator;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_INCLUDE_PATHS = "$(PREVIEWS_SWIFT_INCLUDE_PATH__$(ENABLE_PREVIEWS)) $(BUILD_DIR)/bazel-out/ios-sim_arm64-min14.0-applebin_ios-ios_sim_arm64-dbg-ST-983f5c65c923/bin/modules/Social";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGET_NAME = SampleApp;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AFA818FA332BD342FB96F03 /* Build configuration list for PBXNativeTarget "Social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EF3D11CB7FADADD0BB5EF3 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3A7A05E2AC76F223F8191115 /* Build configuration list for PBXAggregateTarget "BazelDependencies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A8983FB5FD3F2C1B3DEED86 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		976243118B17A1C196C46370 /* Build configuration list for PBXNativeTarget "SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2443621D19FF6FFA62F5B9 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BD36F0AAEB93F6E9B7E99BCF /* Build configuration list for PBXProject "Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F04F3E130AF94306900781B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E94E80BAB65A37AC5EF2448 /* Project object */;
+}

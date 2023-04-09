@@ -1,0 +1,2 @@
+$(BAZEL_OUT)/applebin_ios-ios_sim_arm64-dbg-ST-983f5c65c923/bin/app/rules_xcodeproj/SampleApp/Info.plist
+$(BAZEL_OUT)/darwin_arm64-dbg/bin/external/rules_xcodeproj_generated/generator/generator-params/SampleApp.1.link.params
